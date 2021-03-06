@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ComposeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="337dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textMultiLine|textPersonName" />
+
+    <Button
+        android:id="@+id/btTakePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"
+        android:text="Take Picture" />
+
+    <ImageView
+        android:id="@+id/ivPicture"
+        android:layout_width="362dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="28dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#F44336"
+        android:text="Submit" />
+
+
+
+</LinearLayout>
